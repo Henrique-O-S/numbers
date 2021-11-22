@@ -46,15 +46,8 @@ public class ListAggregatorTest {
     @Test
     public void distinct() {
 
-        class StubListDeduplicator implements GenericListDeduplicator {
-            @Override
-            public List<Integer> deduplicate(List<Integer> list) {
-                return Arrays.asList(1, 2, 4, 5);
-            }
-        }
-        StubListDeduplicator deduplicator = new StubListDeduplicator();
         ListAggregator aggregator = new ListAggregator();
-        int distinct = aggregator.distinct(list, deduplicator);
+        int distinct = aggregator.distinct(list);
 
         Assertions.assertEquals(4, distinct);
     }
