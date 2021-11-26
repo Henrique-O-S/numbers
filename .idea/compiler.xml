@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="numbers.numbers.main~1" target="1.8" />
-      <module name="numbers.numbers.test~1" target="1.8" />
+      <module name="numbers.numbers.main" target="1.8" />
+      <module name="numbers.numbers.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
