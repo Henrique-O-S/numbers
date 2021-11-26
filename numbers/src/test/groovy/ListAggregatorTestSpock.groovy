@@ -3,7 +3,7 @@ import spock.lang.Specification
 import com.aor.numbers.GenericListDeduplicator
 
 class ListAggregatorTestSpock extends Specification {
-    private List<Integer> list;
+    private List<Integer> list
 
     def "setup"() {
         this.list = Arrays.asList(1,2,4,2,5)
