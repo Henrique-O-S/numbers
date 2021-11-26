@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FirstSpecification" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-26T15:06:07" hostname="DESKTOP-67BVQ93" time="0.052">
+<testsuite name="FirstSpecification" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-26T15:38:40" hostname="DESKTOP-67BVQ93" time="0.038">
   <properties/>
-  <testcase name="numbers to the power of two [a: 1, b: 2, c: 1, #0]" classname="FirstSpecification" time="0.046"/>
-  <testcase name="numbers to the power of two [a: 2, b: 2, c: 4, #1]" classname="FirstSpecification" time="0.0"/>
-  <testcase name="numbers to the power of two [a: 3, b: 2, c: 9, #2]" classname="FirstSpecification" time="0.0"/>
+  <testcase name="Should verify notify was called" classname="FirstSpecification" time="0.038">
+    <failure message="groovy.lang.MissingPropertyException: No such property: Notifier for class: FirstSpecification" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: Notifier for class: FirstSpecification
+	at FirstSpecification.Should verify notify was called(FirstSpecification.groovy:51)
+</failure>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
