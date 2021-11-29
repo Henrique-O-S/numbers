@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ListFiltererTestSpock" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-29T16:28:15" hostname="DESKTOP-67BVQ93" time="1.556">
+  <properties/>
+  <testcase name="filter" classname="ListFiltererTestSpock" time="1.556"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
